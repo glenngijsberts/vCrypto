@@ -1,2 +1,2 @@
 # vCrypto
-## A small Vue project for Cryptocurrency
+A small Vue project for Cryptocurrency
