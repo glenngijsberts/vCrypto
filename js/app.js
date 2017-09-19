@@ -49,8 +49,8 @@ var app = new Vue({
 
 		},
 
-		getCoinImage: function(symbol) {
-			return CRYPTOCOMPARE_API_URI + this.coinData[symbol].ImageUrl;
+		getColor: (num) => {
+		  return num > 0 ? "color:green;" : "color:red;";
 		}
 
 	}, //end of methods
